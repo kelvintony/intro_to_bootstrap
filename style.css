@@ -1,0 +1,32 @@
+body {
+  padding-bottom: 300px;
+}
+
+.header_text {
+  text-align: center;
+}
+.body_container {
+  max-width: 900px;
+  margin: 10px auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.carousel_container {
+  max-width: 900px;
+  margin: 10px auto;
+  padding: 20px;
+}
+
+.table_container {
+  max-width: 900px;
+  margin: 10px auto;
+  padding: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .body_container {
+    grid-template-columns: 1fr;
+  }
+}
